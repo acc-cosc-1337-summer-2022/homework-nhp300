@@ -88,7 +88,6 @@ void TicTacToe3 :: display_board()
 {
     for(long unsigned int i=0; i < pegs.size(); i+=3)
     {
-        std::cout<< pegs[i] << "|" << pegs[i+1] << "|" <<pegs[i+2] <<"|" <<pegs[i+3] << "\n";
+        std::cout<< pegs[i] << "|" << pegs[i+1] << "|" <<pegs[i+2] << "\n";
     }
-
 }
