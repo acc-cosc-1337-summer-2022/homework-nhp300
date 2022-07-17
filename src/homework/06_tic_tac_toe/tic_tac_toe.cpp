@@ -33,7 +33,7 @@ void TicTacToe::mark_board(int position)
     set_next_player();
 }
 
-void TicTacToe::display_board() const
+void TicTacToe::display_board() //const
 {
     for(long unsigned int i=0; i< pegs.size(); i+=3)
     {
@@ -93,6 +93,7 @@ void TicTacToe::set_winner()
 
 }
 
+/*
 bool TicTacToe::check_column_win()
 {
 
@@ -174,3 +175,6 @@ bool TicTacToe::check_diagonal_win()
     else
     return false;
 }
+
+*/
+
